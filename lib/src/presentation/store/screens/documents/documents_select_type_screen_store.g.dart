@@ -1,0 +1,38 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'documents_select_type_screen_store.dart';
+
+// **************************************************************************
+// StoreGenerator
+// **************************************************************************
+
+// ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic
+
+mixin _$DocumentsSelectTypeScreenStore
+    on _DocumentsSelectTypeScreenStore, Store {
+  final _$selectDocumentAsyncAction =
+      AsyncAction('_DocumentsSelectTypeScreenStore.selectDocument');
+
+  @override
+  Future<void> selectDocument(BuildContext context, DocumentCountry document,
+      DocumentDocumentType documentType) {
+    return _$selectDocumentAsyncAction
+        .run(() => super.selectDocument(context, document, documentType));
+  }
+
+  final _$selectDocumentSourceAsyncAction =
+      AsyncAction('_DocumentsSelectTypeScreenStore.selectDocumentSource');
+
+  @override
+  Future<DocumentSource?> selectDocumentSource(BuildContext context) {
+    return _$selectDocumentSourceAsyncAction
+        .run(() => super.selectDocumentSource(context));
+  }
+
+  @override
+  String toString() {
+    return '''
+
+    ''';
+  }
+}

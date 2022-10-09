@@ -1,0 +1,4 @@
+enum DocumentSource {
+  file,
+  camera,
+}

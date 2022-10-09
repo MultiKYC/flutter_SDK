@@ -1,0 +1,17 @@
+include: package:lint/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - lib/generated/**
+    - lib/**/*.g.dart
+    - lib/**/*.gr.dart
+    - lib/**/*.config.dart
+    - lib/generated_plugin_registrant.dart
+    - test/**/*.mocks.dart
+    - test/**/*.g.dart
+    - test/**/*.gr.dart
+
+linter:
+  rules:
+    sort_pub_dependencies: false
+    use_build_context_synchronously: false

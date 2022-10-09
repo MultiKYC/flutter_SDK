@@ -20,9 +20,8 @@ dependencies:
   wakelock: ^0.6.2
 
   multi_kyc_sdk:
-    path: ../
-#    git:
-#      url: git@gitlab.treeum.net:treeum/kyc/kyc-sdk-flutter.git
+    git:
+      url: https://github.com/MultiKYC/flutter_SDK.git
 
 
 dependency_overrides:

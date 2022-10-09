@@ -416,9 +416,11 @@ packages:
   multi_kyc_sdk:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "292b18fa66c760ac4ebd6751a803215e079119a6"
+      url: "https://github.com/MultiKYC/flutter_SDK.git"
+    source: git
     version: "0.0.1+1"
   native_exif:
     dependency: transitive
